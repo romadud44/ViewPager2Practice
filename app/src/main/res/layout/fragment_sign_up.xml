@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".SignUpFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_32dp"
+            android:backgroundTint="@color/white"
+            android:gravity="center"
+            android:padding="@dimen/_36dp"
+            android:text="@string/text_reg_TV"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_24sp" />
+
+        <ImageView
+            android:layout_width="@dimen/_160dp"
+            android:layout_height="@dimen/_160dp"
+            android:src="@drawable/ic_account_circle" />
+
+        <EditText
+            android:id="@+id/userNameSignUpET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_32dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="@string/text_username_ET"
+            android:inputType="text"
+            android:padding="@dimen/_18dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/_20sp" />
+
+        <EditText
+            android:id="@+id/passwordSignUpET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_32dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="@string/text_password_ET"
+            android:inputType="textPassword"
+            android:padding="@dimen/_18dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/_20sp" />
+
+        <Button
+            android:id="@+id/loginSignUpBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_32dp"
+            android:backgroundTint="@color/white"
+            android:padding="@dimen/_18dp"
+            android:text="@string/text_signup_BTN"
+            android:textColor="#3B84F1"
+            android:textSize="@dimen/_20sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
